@@ -19,14 +19,14 @@ Pragyat Jyoti Baruah, Vamanpally Sai Snehal, Tirthanka Borah, Arnab Paul, Th. De
 Knowledge_block_extracter.ipynb
 Implements the foundational extraction pipeline. This notebook is responsible for parsing the source disaster management documents (PDFs), performing layout-aware chunking, and extracting discrete visual artifacts to build the multimodal knowledge base.
 
-3. Model Inference & RAG Pipelines:
+2. Model Inference & RAG Pipelines:
 These notebooks contain the end-to-end Retrieval-Augmented Generation (RAG) implementation, including vector indexing (ChromaDB), model loading (with optimized VRAM quantization), and the generation loops for each respective architecture:
 
-  Gemma_3_4B_IT.ipynb: Implementation pipeline for Gemma-3-4B-IT (Proposed optimal edge architecture).
-  InternVL3_5_8B.ipynb: Implementation pipeline for InternVL-3.5-8B.
-  Phi_3_Vision.ipynb: Implementation pipeline for Phi-3-Vision.
-  Qwen2_Vl_2B.ipynb: Implementation pipeline for Qwen2-VL-2B.
-  ViLT+RoBERTa.ipynb: Implementation pipeline for the baseline ViLT + RoBERTa architecture.
+  ***Gemma_3_4B_IT.ipynb**: Implementation pipeline for Gemma-3-4B-IT (Proposed optimal edge architecture).
+  ***InternVL3_5_8B.ipynb**: Implementation pipeline for InternVL-3.5-8B.
+  ***Phi_3_Vision.ipynb**: Implementation pipeline for Phi-3-Vision.
+  ***Qwen2_Vl_2B.ipynb**: Implementation pipeline for Qwen2-VL-2B.
+  ***ViLT+RoBERTa.ipynb**: Implementation pipeline for the baseline ViLT + RoBERTa architecture.
 
 3. Evaluation Suite & Results:
 
